@@ -1,0 +1,8 @@
+// Neste arquivo, há apenas um item sendo exportado, e é uma function 
+//podemos usar export default
+export default function dobraVet(vet){
+    // cria um novo vetor com elementos que são o dobro do valor do original
+    let res=[]
+    for(let n of vet)res.push(n*2)
+    return res
+}
